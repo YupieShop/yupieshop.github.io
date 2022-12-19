@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
+
+html, body {
+    overflow-x:hidden 
+} 
+
+body{
+    color: #FFF;
+    background: #151b21;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.header{
+    padding: 1rem;
+    background-color: #151b21;
+    width: 100%;
+}
+
+.header img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2.8rem;
+}
+
+.main-button{
+    padding: 0.8rem 5rem 0.8rem 5rem;
+    border-radius: 4rem;
+    font-weight: 800;
+    background-color: #FD393E;
+    color: white;
+    transition: .3s ease-in-out;
+    border: 0px;
+    font-size: 20px;
+    animation: pulse 1.9s infinite;
+    position: absolute;
+    width: 20rem;
+    margin-left: -10rem;
+}
+
+.buy-button{
+    padding: 0.8rem 4.7rem 0.8rem 4.7rem;
+    border-radius: 4rem;
+    font-weight: 800;
+    background-color: #26eb1f;
+    color: white;
+    transition: .3s ease-in-out;
+    border: 0px;
+    font-size: 20px;
+    animation: pulse 1.9s infinite;
+    position: absolute;
+    width: 20rem;
+    margin-left: -10rem;
+}
+
+.payment-text{
+    margin-top: -6rem;
+}
+
+.payment-image{
+    width: 75%;
+    max-width: 20rem;
+}
+
+.main-button i{
+    margin-left: 5px;
+}
+
+.main-button:hover{
+    background-color: #fa575d;
+}
+
+.section-button{
+    margin: 2rem 0 8rem 0;
+    position: relative;
+}
+
+@keyframes pulse {
+    0% {
+        padding: 0.8rem 5rem 0.8rem 5rem;
+    }
+    50%{
+        margin-top: -0.3rem;
+        padding: 1.2rem 5.4rem 1.2rem 5.4rem;
+    }
+    100% {
+        padding: 0.8rem 5rem 0.8rem 5rem;
+    }
+}
+
+.section-promotion{
+    font-weight: 600;
+    background-color: #FD393E;
+    font-size: 0.85rem;
+    padding: 0.7rem 0 0.7rem 0;
+}
+
+.section-title{
+    margin: 1.2rem 0 0 0;
+}
+
+.section-p{
+    margin: 3rem 0 3rem 0;
+}
+
+.simple-text{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.simple-text span{
+    color: #FD393E;
+}
+
+.section-p h2{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.section-p h2 span{
+    color: #FD393E;
+}
+
+.rating-image{
+    max-width: 22px;
+    margin-top: -5px;
+}
+
+.rating-image-section{
+    max-width: 17px;
+    margin-top: -13px;
+}
+
+.rating-image-user{
+    max-width: 6rem;
+}
+
+.section-title-image{
+    margin: 3rem 0 0 0;
+}
+
+.faq h3{
+    text-align: left;
+}
+
+.faq p{
+    text-align: justify;
+}
+
+.modal-content{
+    background-color: #151b21;
+    border-radius: 15px;
+}
+
+.modal-body{
+    background-color: #151b21;
+    border-radius: 15px;
+}
+
+.modal-body .close{
+    float: right;
+    margin: 0 0 1rem 0;
+    padding: 0 1rem 0 1rem;
+    border: 0;
+    background-color: #FD393E;
+    color: #FFF;
+    border-radius: 15px;
+}
+
+.modal-body .close i{
+    font-size: 0.8rem;
+}
+
+.imagepreview{
+    border-radius: 15px;
+}
+
+.img1{
+    max-width: 35rem;
+    width: 80%;
+}
+
+.product-image{
+    max-width: 35rem;
+    width: 95%;
+}
+
+.section-price h1{
+    font-size: 4.3rem;
+    display: inline;
+    color: #26eb1f;
+}
+
+.section-price s{
+    color: #FD393E;
+}
+
+.section-price h2{
+    display: inline;
+}
+
+.section-price p{
+    margin-top: -1.2rem;
+}
+
+.section-price p i{
+    margin-left: 5px;
+}
+
+footer{
+    
+}
+
+.bg_heart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+}
+
+.heart {
+    position: absolute;
+    top: -50%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -m-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.heart:before {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+.heart:after {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+  
+@-webkit-keyframes love {
+0%{top:110%}
+}
+@-moz-keyframes love {
+0%{top:110%}
+}
+@-ms-keyframes love {
+0%{top:110%}
+}
+@keyframes love {
+0%{top:110%}
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0e1216;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FD393E;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fc5a5f;
+}
