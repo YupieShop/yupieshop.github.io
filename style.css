@@ -211,8 +211,13 @@ h1{
     margin-left: 5px;
 }
 
-footer{
-    
+footer a{
+    text-decoration: none;
+    color: #CCC;
+}
+
+footer a:hover{
+    color: #FFF;
 }
 
 .bg_heart {
