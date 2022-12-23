@@ -63,6 +63,19 @@
       </div>
 
       <div class="row section-p">
+        <div class="col-12 list">
+          <p>✅ Sua amada jamais esquecerá</p>
+          <p>✅ Possui um valor afetivo</p>
+          <p>✅ Pode ser usado de 2 maneiras</p>
+          <p>✅ Tem o significado de amor e sorte</p>
+          <p>✅ É feito com material de alta durabilidade</p>
+          <p>✅ É um presente que impressiona e gera impacto</p>
+          <p>✅ É acessível e pode ser parcelado em até 12x</p>
+          <p>✅ O frete é grátis para todo o Brasil</p>
+        </div>
+      </div>
+
+      <div class="row section-p">
         <div class="col-12">
           <img src="images/gif1.webp" alt="Colar Trevo de Corações" class="product-image">
         </div>
@@ -420,17 +433,13 @@
       var r_left = Math.floor(Math.random() * 60) + 1;
       var r_bg = Math.floor(Math.random() * 25) + 100;
       var r_time = Math.floor(Math.random() * 5) + 6;
-
       var real_size = r_size + r_num + r_left;
-
       while(real_size > 130 || real_size < 100){
-
         r_num = Math.floor(Math.random() * 40) + 1;
         r_size = Math.floor(Math.random() * 65) + 10;
         r_left = Math.floor(Math.random() * 60) + 1;
         real_size = r_size + r_num + r_left;
       }
-
       $('.bg_heart').append("<div class='heart' style='width:" + r_size + "px;height:" + r_size + "px;left:" + r_left + "%;background:rgba(255," + (r_bg - 25) + "," + r_bg + ",1);-webkit-animation:love " + r_time + "s ease;-moz-animation:love " + r_time + "s ease;-ms-animation:love " + r_time + "s ease;animation:love " + r_time + "s ease'></div>");
   
       $('.bg_heart').append("<div class='heart' style='width:" + (r_size - 10) + "px;height:" + (r_size - 10) + "px;left:" + (r_left + r_num) + "%;background:rgba(255," + (r_bg - 25) + "," + (r_bg + 25) + ",1);-webkit-animation:love " + (r_time + 5) + "s ease;-moz-animation:love " + (r_time + 5) + "s ease;-ms-animation:love " + (r_time + 5) + "s ease;animation:love " + (r_time + 5) + "s ease'></div>");
