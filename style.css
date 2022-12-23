@@ -15,6 +15,11 @@ h1{
     font-weight: 800;
 }
 
+.list{
+    text-align: start;
+    margin: 0 auto;
+}
+
 .header{
     padding: 1rem;
     background-color: #151b21;
