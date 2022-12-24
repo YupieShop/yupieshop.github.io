@@ -18,6 +18,11 @@ h1{
 .list{
     text-align: start;
     margin: 0 auto;
+    line-height: 1.3rem;
+}
+
+.list p{
+    margin-top: -7px;
 }
 
 .header{
