@@ -65,11 +65,37 @@
         </div>
       </div>
 
+      <!--
       <div class="row section-button">
         <div class="col-12">
           <button class="main-button">EU QUERO <i class="fa fa-heart"></i></button>
         </div>
       </div>
+      -->
+
+      <div class="row section-price" style="margin-top: -1.5rem;">
+        <div class="col-12">
+          <p>
+           <h4 id="promotion-h4"><b>NÃO PERCA!</b> <span style="color: #FD393E;">58% OFF</span> APENAS HOJE</h4>
+          </p>
+          <p style="margin-top: 2rem;">
+            <h2>de <s>189,90</s></h2>
+          </p>
+          <p>
+            <h2>por </h2><h1>77,90</h1>
+          </p>
+          <p>
+            com Frete Grátis <i class="fa fa-truck"></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="row section-button">
+        <div class="col-12">
+          <a href="https://seguro.colartrevo.shop/r/23AQNSMY86"><button class="buy-button">COMPRAR</button></a>
+        </div>
+      </div>
+
 
       <div class="row section-p">
         <div class="col-12 list">
@@ -93,6 +119,12 @@
       <div class="row section-p">
         <div class="col-12">
           <img src="images/main3.jpg" alt="" class="product-image">
+        </div>
+      </div>
+
+      <div class="row section-button">
+        <div class="col-12">
+          <button class="main-button">EU QUERO <i class="fa fa-heart"></i></button>
         </div>
       </div>
 
@@ -445,6 +477,12 @@
     $('.close').on('click', function() {
       $('#imagemodal').modal('hide');   
     });
+
+    const date = new Date();
+    const day = date.getDate();
+    const month = date.getMonth() + 1;
+
+    $('#promotion-h4').html(`<b>NÃO PERCA!</b> <span style="color: #FD393E;">58% OFF</span> APENAS HOJE <span style="color: #FD393E;"><b>${day}/${month}</b></span>`);
   });
 
   /*
