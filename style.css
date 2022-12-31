@@ -109,6 +109,14 @@ h1{
     padding: 0.7rem 0 0.7rem 0;
 }
 
+.section-warning{
+    background-color: #1a2027;
+    border-radius: 0.5rem;
+    margin: 1rem 0.3rem 0.3rem 0.3rem;
+    padding: 1.1rem 0.3rem 0 0.3rem;
+    font-weight: 600;
+}
+
 .section-title{
     margin: 1.2rem 0 0 0;
 }
