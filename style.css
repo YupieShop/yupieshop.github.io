@@ -37,6 +37,14 @@ h1{
     max-width: 2.8rem;
 }
 
+.title-head{
+    background-color: #FD393E;
+    border-radius: 2.2rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
 iframe[src*=youtube] {
     display: block;
     margin: 0 auto;
