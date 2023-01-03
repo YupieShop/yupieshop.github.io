@@ -494,13 +494,13 @@
       $('#imagemodal').modal('hide');   
     });
 
-    /*
+    
     const date = new Date();
-    const day = date.getDate();
-    const month = date.getMonth() + 1;
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
 
-    $('#promotion-h4').html(`<b>NÃO PERCA!</b> <span style="color: #FD393E;">58% OFF</span> APENAS HOJE <span style="color: #FD393E;"><b>${day}/${month}</b></span>`);
-    */
+    $('#promotion-h4').html(`<b>NÃO PERCA!</b> <span style="color: #FD393E;"><b>32% OFF</b></span> APENAS HOJE <span style="color: #FD393E;"><b>DIA ${day.toString().padStart(2, '0')}/${month.toString().padStart(2, '0')}/2023</b></span>`);
+    
   });
 
   /*
